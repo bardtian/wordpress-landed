@@ -1,0 +1,194 @@
+/*
+Theme Name: Landed
+ */
+@font-face {
+  font-family: "BGB";
+  src: url('../fonts/basic_gothic_bold.woff');
+}
+/**
+ * Colors
+ */
+.error{
+  color:#FF0000;
+}
+.green{
+  color:Green;
+}
+.page-artists {
+  list-style: none;
+  text-align: justify;
+}
+
+.page-artists li {
+  display: inline-block;
+  width: 160px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.page-artists li a {
+  color: inherit;
+}
+
+.page-artists li img {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.page-artists li span {
+  display: block;
+  width: 155px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "BGB", Helvetica, sans-serif;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  padding: 3px 0px;
+  color: #aaa;
+  background: #444;
+}
+
+ul.social-networks-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+ul.social-networks-list li {
+  display: inline-block;
+}
+
+/**
+single artist  header
+ */
+.single-artist-template #content {
+  display: inline-block;
+  float: left;
+  margin: 0px;
+  width: 730px;
+}
+
+.single-artist-template .page-artists {
+  padding-top: 3.5em;
+  width: 220px;
+  display: inline-block;
+
+
+}
+
+.image-title,img.image-title { /* 	background: #000; */
+  width: auto;
+  height: auto;
+}
+
+/**
+article overide: surchage des styles définis dans le style.css du theme père
+ */
+body {
+  background: #FFF url('../images/pattern8-pattern53b.png');
+}
+
+td {
+  vertical-align: top;
+}
+
+img {
+  /*width: auto !important;
+  height: auto !important;*/
+}
+
+#content {
+  width: 800px !important;
+}
+
+.singular .entry-header,.singular .entry-content,.singular footer.entry-meta,.singular #comments-title
+{
+  margin: 0 auto;
+  width: 85%;
+}
+
+.home .page .entry-title {
+  text-indent: -4000px;
+
+}
+
+.page-template-artist-template-php #main {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.page-template-artist-template-php nav#access {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#page,#primary {
+  max-width: 950px;
+  margin-top: 0;
+}
+
+div#main {
+  padding-top: 0;
+}
+
+nav#access {
+  margin-bottom: 0;
+}
+
+#site-description {
+  margin-bottom: 0;
+}
+
+#site-title {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#branding #searchform {
+  position: absolute;
+  top: 1em;
+  right: 7.6%;
+  text-align: right;
+}
+/**
+BOOKING FORM
+ **/
+.green{
+  color:green
+}
+.mp-landed-booking-form {
+  width: 600px;
+  font-size: 1em;
+}
+
+.mp-landed-booking-form label {
+  width: 200px;
+  vertical-align:top;
+  display: inline-block;
+}
+
+.mp-landed-booking-form input[type=text]{
+  width: 300px;
+}
+.mp-landed-booking-form input[type=submit],.mp-landed-booking-form input[type=reset]{
+
+  background:#FFFFFF;
+  border:1px solid #999;
+}
+.mp-landed-booking-form select{
+  width:300px;
+}
+.mp-landed-booking-form textarea{
+  width:300px;
+}
+.mp-landed-booking-form fieldset{
+  border: 1px solid #AAA;
+  padding: 15px;
+}
+.mp-landed-booking-form legend{
+  font-weight: bold;
+  font-size: 1.1em;
+  padding:0 10px;
+  text-transform: uppercase;
+}

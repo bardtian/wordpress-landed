@@ -1,0 +1,62 @@
+<?php
+
+require_once "MetaField.php";
+
+class MetaBox{
+  private $meta;
+  private $postType;
+  /** factory method */
+  static function Create($postType,$meta){
+    $metaBox = new MetaBox($postType,$meta);
+    return $metaBox;
+  }
+  /** constructeur */
+  function __construct($postType,array $meta){
+    $this->postType = $postType;
+    $this->meta = $meta;
+    add_meta_box(
+      "{$this->postType}Info-meta",
+      "{$this->postType} Options",
+      array($this,"registerMetaboxCallback"),
+      $this->postType,
+      $this->meta["context"],
+      $this->meta['priority']);
+
+    add_action('save_post',array($this,'savePostTypeMetadatas'));
+  }
+  /** construit l'interface de la metabox en HTML */
+  public function registerMetaboxCallback(){
+    global $post;
+    print "<fieldset class='{$this->postType}-metabox'>";
+    foreach($this->meta['fields'] as $field)
+    {
+
+      $meta = get_post_meta($post->ID,$field['id'],true);
+      echo MetaField::Create($field['type'],
+        array("id"=>$field['id'],
+        "title"=>$field['title'],
+        "value"=>$meta));
+    }
+    print"</fieldset>";
+    /** écrit le stylesheet par défaut */
+    print $this->getDefaultStyleSheet();
+
+  }
+  private function getDefaultStyleSheet(){
+    return "<style>
+      fieldset.{$this->postType}-metabox label{ width:200px;display:inline-block;} fieldset.{$this->postType}-metabox input{ width:500px;display:inline-block;clear:right;}</style> ";
+  }
+  /** sauve les metadatas */
+  private function savePostTypeMetadatas(){
+    global $post;
+    foreach($this->meta['fields'] as $field){
+      if(isset($_POST[$field['id']])){
+        update_post_meta($post->ID,$field['id'],$_POST[$field['id']]);
+      }
+    }
+    //remove_action('save_post',array($this,'savePostTypeMetadatas'));
+  }
+
+}
+
+

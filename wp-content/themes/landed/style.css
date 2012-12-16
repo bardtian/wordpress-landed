@@ -1,0 +1,16 @@
+/*
+ * Theme Name: Landed
+ * Author: M.PARAISO
+ * License: copyrights M.PARAISO
+ * Template: twentyeleven
+ * Version: 0.1
+ */
+@import url('../twentyeleven/style.css');
+@import url('css/landed.css');
+@import url('css/forms.css');
+/**
+STYLES
+**/
+ul.page-artists{
+  list-type:none;
+}

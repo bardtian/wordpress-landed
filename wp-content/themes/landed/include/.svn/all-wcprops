@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/afrobytes/!svn/ver/9/trunk/wordpress/themes/landed/include
+END
+options.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/afrobytes/!svn/ver/9/trunk/wordpress/themes/landed/include/options.php
+END
+get_mediaplayer_tracks_asjson.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/afrobytes/!svn/ver/9/trunk/wordpress/themes/landed/include/get_mediaplayer_tracks_asjson.php
+END
+MP_Landed_BookingForm.inc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/afrobytes/!svn/ver/9/trunk/wordpress/themes/landed/include/MP_Landed_BookingForm.inc
+END
+MP_Landed_BookingRequest.inc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/afrobytes/!svn/ver/9/trunk/wordpress/themes/landed/include/MP_Landed_BookingRequest.inc
+END

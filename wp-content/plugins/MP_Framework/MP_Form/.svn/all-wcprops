@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Form
+END
+IFormAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Form/IFormAsset.php
+END
+MP_Form.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/afrobytes/!svn/ver/11/trunk/wordpress/plugins/MP_Framework/MP_Form/MP_Form.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Form/test.php
+END
+MP_ValidTypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Form/MP_ValidTypes.php
+END
+MP_FormField.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Form/MP_FormField.php
+END
+MP_FormValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Form/MP_FormValidator.php
+END
+MP_FormFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Form/MP_FormFactory.php
+END
+MP_Utilities.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Form/MP_Utilities.php
+END

@@ -1,0 +1,4 @@
+.landed_news_letter_subscription_form input[type=submit], .landed_news_letter_subscription_form input[type=reset]{
+border: 1px solid #000;
+background: #EEE;
+}

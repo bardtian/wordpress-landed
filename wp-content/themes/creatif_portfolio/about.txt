@@ -1,0 +1,2 @@
+ <h3>Designed by Collis Ta’eed, do with this as you please</h3>
+      <p>You can read a photoshop tutorial for creating the design at <a href="http://psdtuts.com">PSDTUTS</a>, You can read a PS->HTML tutorial for creating the site at <a href="http://nettuts.com">NETTUTS</a> and you can learn how to turn the HTML into a Wordpress theme in the upcoming book <a href="http://freelanceswitch.com/book">How to be a Rockstar Wordpress Designer</a></p>

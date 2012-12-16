@@ -1,0 +1,31 @@
+/*
+Theme Name: Test theme
+Theme URI: http://aikah.free.fr/
+Description: A simple test theme.
+Author: M.Paraiso
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: empty,white,sidebar
+ */
+body{
+  font-size: 15px;
+}
+ul{
+  list-style:none;
+}
+.menu ul{
+  float:right;
+  display:inline-block;
+}
+.menu li{
+  display:inline-block;
+  padding:0 0 0 15px;
+  margin:0;
+}
+.container{
+background: #EEEEEE;
+}
+.previous{
+   float:right;
+}

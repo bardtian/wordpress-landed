@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Core
+END
+WP_Abstraction.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Core/WP_Abstraction.php
+END
+MP_FieldTypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/afrobytes/!svn/ver/12/trunk/wordpress/plugins/MP_Framework/MP_Core/MP_FieldTypes.php
+END
+MP_HtmlRenderer.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/afrobytes/!svn/ver/12/trunk/wordpress/plugins/MP_Framework/MP_Core/MP_HtmlRenderer.php
+END
+WPA.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/afrobytes/!svn/ver/4/trunk/wordpress/plugins/MP_Framework/MP_Core/WPA.php
+END

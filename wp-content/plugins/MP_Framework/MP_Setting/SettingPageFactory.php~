@@ -1,0 +1,16 @@
+<?php
+/** Setting Page Factory */
+class SettingPageFactory{
+
+  static final $interface ="ISettingsPage";
+
+  public sstatic function Create($class,$params){
+    $ref = new ReflectionClass($class);
+    if($ref::implementsInterface($interface)){
+      return new $$class($params);
+    }else{
+      throw new Exception("$class doesnt not exist or 
+        doesnt implement $interface");
+    }
+  }
+}
